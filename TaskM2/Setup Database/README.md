@@ -20,3 +20,4 @@ Database yang digunakan disini mysql dengan galeria cluster sebagai load balance
 8. Ketikan perintah <b>sudo mysqld_bootstrap</b> pada node database yang digunakan sebagai database utama untuk mengaktifkan mysqlnya, jika tidak diketikan perintah tersebut maka untuk mengaktifkan dengan <b>sudo systemctl start mysql</b> tidak akan berjalan<br>
 9. Jalankan node sisahnya dengan perintah <b>sudo systemctl start mysql</b>
 10. Untuk mengecek apakah berjalan bisa diketikan perintah <b>mysql -u root -p -e "SHOW STATUS LIKE 'wsrep_cluster_size'"</b> dan jika valuenya bukan 0 maka berhasil
+11. Terakhir bikin user untuk backend dapat terhubung dengan database dengan perintah <b>CREATE USER 'newuser'@'(ip backend)' IDENTIFIED BY 'password';</b> pada mysql kemudian grant access dengan perintah <b>GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'(ip backend)';</b>
