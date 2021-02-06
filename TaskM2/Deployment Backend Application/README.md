@@ -11,3 +11,7 @@
 ![2.3.png](https://github.com/GGenom3/DumbWaysDevOps/blob/main/TaskM2/Images/2.3.PNG)<br><br>
 
 6. Jalankan dengan npm install dan akan berjalan pada port 5000
+
+7. Masuk ke bagian server front end dan ketikan edit file cofig.js pada direktori library-frontend/src/config/ lalu base url masukan ip atau domain untuk backendnya<br>
+
+![3.3.png](https://github.com/GGenom3/DumbWaysDevOps/blob/main/TaskM2/Images/3.3.PNG)<br><br>
