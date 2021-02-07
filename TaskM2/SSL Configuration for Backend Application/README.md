@@ -1,1 +1,2 @@
-Untuk ssl juga caranya sama seperti TaskM1 hanya saja yang disetting domain api nya untuk backend dan pilih no redirect pada certbot --nginx saat instalasi ssl nya
+Untuk ssl masih menggunakan certbot --nginx lalu pilih api.ikhsandi dan pilih no redirect agar http tetap dapat diakses<br>
+![1.6.png](https://github.com/GGenom3/DumbWaysDevOps/blob/main/TaskM2/Images/1.6.PNG)
