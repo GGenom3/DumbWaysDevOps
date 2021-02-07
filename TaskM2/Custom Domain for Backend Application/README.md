@@ -1,1 +1,2 @@
-Untuk Custom domain caranya seperti pada TaskM1 untuk menambahkannya pada cloudflare dengan domain api.ikhsandi type A dan ipnya menggunakan ip reverse proxy dan ubah proxy status menjadi dns only lalu edit pada nginx reverse proxy dan ubah server name menjadi domain dari yang sebelumnya masih ip pada section backendnya
+Untuk custom domain menggunakan cloudflare juga dan ditambahkan api.ikhsandi dengan type A dan proxy statusnya dns only lalu edit pada reverse proxy untuk mengganti nameserver untuk backend menjadi domain api yang dibuat tadi
+![1.5.png](https://github.com/GGenom3/DumbWaysDevOps/blob/main/TaskM2/Images/1.5.PNG)
